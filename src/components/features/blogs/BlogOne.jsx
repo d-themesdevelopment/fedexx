@@ -4,7 +4,7 @@ import ALink from "../ALink";
 const BlogOne = ({ blog }) => {
   return (
     <div className="blog font-light">
-      <div className="relative pt-[63%] overflow-hidden">
+      <div className="relative pt-[63%] overflow-hidden bg-gray-300">
         <Image
           className="absolute top-0 left-0 w-full h-full"
           src={`/images/blogs/${blog?.imageUrl}`}

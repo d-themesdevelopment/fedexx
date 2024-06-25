@@ -5,7 +5,7 @@ const BlogTwo = ({ blog }) => {
   return (
     <div className="blog font-light sm:flex items-start lg:items-center">
       <div className="sm:w-[210px]">
-        <div className="relative pt-[70%] overflow-hidden ">
+        <div className="relative pt-[70%] overflow-hidden bg-gray-300">
           <Image
             className="absolute top-0 left-0 bottom-0 h-full w-full"
             src={`/images/blogs/${blog?.imageUrl}`}
